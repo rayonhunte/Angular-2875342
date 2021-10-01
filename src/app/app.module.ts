@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { ErrorMetadataService } from './services/error-metadata.service';
 import { UserListComponent } from './user-list/user-list.component';
 import { HighlighttextPipe } from './pipe/highlighttext.pipe';
+import { LocFilterPipe } from './pipe/loc-filter.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
-    HighlighttextPipe
+    HighlighttextPipe,
+    LocFilterPipe
   ],
   imports: [
     BrowserModule,

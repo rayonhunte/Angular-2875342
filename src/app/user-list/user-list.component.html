@@ -7,5 +7,6 @@
 </div>
 
 <ul class="user-list">
-  <li *ngFor="let user of users" class="user-list-item">{{ user.name | highlighttext: filter.value}}</li>
+  <li *ngFor="let user of (users | locFilter:1 : 4: 5: 3)" class="user-list-item"
+    [innerHtml]="user.name | highlighttext: filter.value"></li>
 </ul>

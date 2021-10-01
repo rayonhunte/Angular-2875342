@@ -9,7 +9,7 @@ import { UserListService } from './user-list.service';
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
-  public users: User[] | null = null;
+  public users: User[] = [];
 
   constructor(
     private userListService: UserListService,
