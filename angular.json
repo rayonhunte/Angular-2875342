@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "ng-testing-and-debugging"
+  "defaultProject": "ng-testing-and-debugging",
+  "cli": {
+    "analytics": "70276582-4d9d-4036-a339-003291ec5b62"
+  }
 }
